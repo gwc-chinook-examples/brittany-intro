@@ -11288,7 +11288,6 @@ TL.TimeMarker = TL.Class.extend({
 		}
 
 
-
 		// Fire event that the slide is loaded
 		this.onLoaded();
 
