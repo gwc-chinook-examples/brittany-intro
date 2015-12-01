@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block body %}
+<div id="example-timeline"></div>
+<script type="text/javascript">
+	var timeline = new TL.Timeline('example-timeline', '{{ url_for("static", filename="data/test.json") }}');
+	// window.onresize = function(event) {
+		// timeline.updateDisplay();
+	// }
+</script>
+{% endblock %}
